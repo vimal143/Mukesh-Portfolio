@@ -14,7 +14,8 @@ const Nav = () => {
             <div className="navbar__left-logo">
               <img src="/images/logo1.png" alt="logo" />
             </div>
-          </ul>
+  
+          </ul> 
           {state ? (
             <ul className="navbar__right">
              
