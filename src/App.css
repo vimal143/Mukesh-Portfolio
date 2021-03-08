@@ -451,14 +451,14 @@ color: #dfdfdf;
     align-items: center;
   }
   .skill-progress{
-    width: 100%;
+    width: 100vh;
     
   }
   .skill-text{
     color: #fff;
   }
   .progress{
-    width: 100%;
+    width: 100vh;
     height: .5rem;
     background-color: red;
     margin-left: 1rem;
