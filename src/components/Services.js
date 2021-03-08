@@ -32,7 +32,7 @@ const Services = () => {
     {
       id: 3,
       icon: <FaCircleNotch className="commonIcons" />,
-      heading: "Web Desing",
+      heading: "Web Design",
       text:
         "I value simple content structure, clean design patterns, and thoughtful interactions.",
     },
