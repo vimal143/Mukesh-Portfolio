@@ -475,7 +475,7 @@ color: #dfdfdf;
 
 @media (max-width: 600px){
   .progress{
-    width: 100vh;
+    margin-right: 25px;
     
 
   }
