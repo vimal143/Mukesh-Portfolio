@@ -3,7 +3,7 @@ import React from "react";
 import {HashLink as Link} from 'react-router-hash-link';
 import { FaAlignJustify } from "react-icons/fa";
 const Nav = () => {
-  const [state, setState] = React.useState(false);
+  const [state, setState] = React.useState(true);
   
   
   return (
