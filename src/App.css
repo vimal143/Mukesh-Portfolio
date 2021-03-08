@@ -401,9 +401,9 @@ body {
   .toggle {
     display: flex;
   }
-  .banner__img img {
+  /* .banner__img img {
     display: none;
-  }
+  } */
   .header__section h1 {
     font-size: 35px;
     font-weight: 700;
