@@ -389,12 +389,12 @@ body {
     width: 100%;
     align-items: center;
     background: #1f2235;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
   }
   .navbar__right li a {
-    display: block;
+    display: block ;
     padding: 20px 0;
     font-size: 14px;
   }

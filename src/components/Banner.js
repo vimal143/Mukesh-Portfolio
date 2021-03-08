@@ -38,7 +38,7 @@ const Banner = () => {
                 <p>I am a <span className="Typing-effect">
                 
                 <Typical
-        steps={['Developer ', 1200, 'Web Desinger', 1200,'Freelancer',1200,'YouTuber',1200]}
+        steps={['Developer ', 1200, 'Web Designer', 1200,'Freelancer',1200,'YouTuber',1200]}
         loop={Infinity}
         
           />

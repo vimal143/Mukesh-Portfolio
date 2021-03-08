@@ -3,7 +3,9 @@ import React from "react";
 import {HashLink as Link} from 'react-router-hash-link';
 import { FaAlignJustify } from "react-icons/fa";
 const Nav = () => {
-  const [state, setState] = React.useState(true);
+  const [state, setState] = React.useState(false);
+  
+  
   return (
     <nav className="navbar">
       <div className="container">
@@ -43,6 +45,7 @@ const Nav = () => {
       </div>
       <div className="toggle" onClick={() => setState(!state)}>
         <FaAlignJustify />
+        
       </div>
     </nav>
   );
