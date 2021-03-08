@@ -319,6 +319,7 @@ body {
 .contactSection p {
   color: #fff;
   font-size: 14px;
+  text-align: center;
   margin-bottom: 20px;
 }
 .contactSection h5{
@@ -472,11 +473,21 @@ color: #dfdfdf;
     left: 0;
 }
 
+@media (max-width: 600px){
+  .progress{
+    width: 100vh;
+    
+
+  }
+}
+
 
 /* Prjects */
 
 .project-section{
  background-color: #23263a;
+ padding: 30px;
+ align-items: center;
 
 }
 .section-title{
@@ -486,8 +497,10 @@ color: #dfdfdf;
 
 }
 .card {
+  align-items: center;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.966);
   transition: 0.3s;
+  
   width: 90%;
 }
 .card .image{
@@ -501,6 +514,7 @@ color: #dfdfdf;
 }
 
 .container {
+  
   padding: 2px 16px;
   color: #fff;
   
