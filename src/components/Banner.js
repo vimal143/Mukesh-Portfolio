@@ -1,4 +1,5 @@
 import React from "react";
+import Typical from 'react-typical';
 import {
   FaFacebookF,
   FaTwitter,
@@ -9,10 +10,7 @@ import {
 const Banner = () => {
   const [state] = React.useState({
     title: "I am Mukesh Maddheshiya",
-    text:
-      `Professional web
-       developer with decent \
-    experience in this field​`,
+    
     image: "/images/Mukesh.png",
   });
   return (
@@ -37,7 +35,14 @@ const Banner = () => {
                   </li>
                 </ul>
                 <h1>{state.title}</h1>
-                <p>{state.text}</p>
+                <p>I am a <span className="Typing-effect">
+                
+                <Typical
+        steps={['Developer ', 1200, 'Web Desinger', 1200,'Freelancer',1200,'YouTuber',1200]}
+        loop={Infinity}
+        
+          />
+                  </span></p>
                 <div className="header__buttons">
                   <a href="#Banner" className="btn btn-outline">
                     My Portfolio
