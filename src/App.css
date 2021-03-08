@@ -421,6 +421,9 @@ body {
   .h-650 {
     height: auto;
   }
+  .skillsContainer{
+    column-gap: 2rem;
+  }
 }
 .skillsContainer{
   display: grid;
