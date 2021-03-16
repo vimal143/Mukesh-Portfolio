@@ -5,7 +5,7 @@ const Skills=()=>{
     return(
         <>
         <div id="Skills">
-        <div class="skillsHeading">
+        <div className="skillsHeading">
                <h1>My Skills</h1>
         </div>
         <div className="skillsContainer">
