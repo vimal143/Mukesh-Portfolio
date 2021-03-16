@@ -17,6 +17,9 @@ const Nav = () => {
   
           </ul> 
           {state ? (
+            ""
+            
+          ) : (
             <ul className="navbar__right">
              
               <li>
@@ -39,8 +42,6 @@ const Nav = () => {
               <Link smooth to="#Contact">Contact</Link>
               </li>
             </ul>
-          ) : (
-            ""
           )}
         </div>
       </div>
