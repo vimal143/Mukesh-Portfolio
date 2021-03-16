@@ -404,6 +404,9 @@ body {
   .banner__img img {
     display: none;
   }
+  .about__img img{
+    margin-left: 90px;
+  }
   .header__section h1 {
     font-size: 35px;
     font-weight: 700;
