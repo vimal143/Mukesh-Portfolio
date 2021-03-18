@@ -9,13 +9,18 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import Navbar from "./components/Navbar";
 
 function App() {
+  const wid=window.innerWidth;
+  console.log(wid);
+
   return (
     <div>
       <BrowserRouter>
       <Banner />
-      <Nav />
+      
+      {wid<=600?<Nav/>:<Navbar/>}
       <Services />
       <Skills />
        <Projects/>

@@ -1,10 +1,10 @@
 import React from "react";
 import {HashLink as Link} from 'react-router-hash-link';
-import { FaAlignJustify } from "react-icons/fa";
-const Nav = () => {
-  var [state, setState] = React.useState(true);
-  return (
-    <nav className="navbar">
+
+const Navbar=()=>{
+    return(
+        
+        <nav className="navbar">
       <div className="container">
         <div className="navbar__container">
           <ul className="navbar__left">
@@ -13,10 +13,8 @@ const Nav = () => {
             </div>
   
           </ul> 
-          { state  ? (
-           ""
-          ) : (
-            <ul className="navbar__right">
+
+          <ul className="navbar__right">
              
            <li>
              <Link smooth to="#Banner">Home</Link>
@@ -38,16 +36,11 @@ const Nav = () => {
            <Link smooth to="#Contact">Contact</Link>
            </li>
          </ul>
-          )}
-          
-        </div>
+         </div>
       </div>
-      <div className="toggle" onClick={() => setState(!state)} >
-        <FaAlignJustify />
-        
-      </div>
-    </nav>
-  );
-};
+      </nav>
 
-export default Nav;
+        
+    );
+}
+export  default Navbar; 
